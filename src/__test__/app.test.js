@@ -1,4 +1,5 @@
 import colorIndication from './app';
+
 test.each([
   [60, 'healthy'],
   [50.01, 'healthy'],
@@ -10,8 +11,10 @@ test.each([
   [14.99, 'critical'],
   [5, 'critical'],
   [0, 'critical'],
-])(('Check health status'),
+])(
+  ('Check health status'),
   (health, expected) => {
     const result = colorIndication({ name: 'Маг', health });
     expect(result).toBe(expected);
-  });
+  },
+);

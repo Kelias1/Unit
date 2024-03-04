@@ -1,1 +1,1 @@
-import './__test__/app.test.js';
+import './__test__/app.test';
