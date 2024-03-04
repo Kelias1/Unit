@@ -1,6 +1,4 @@
 # Unit-тестирование
 # Чистые функции
 
-[![Build status](https://ci.appveyor.com/api/projects/status/k70rhkx81mwuckfy?svg=true)][def]
-
-[def]: https://ci.appveyor.com/project/LizaSmeh/ajs-test-purefunctions
+[![Build status](https://ci.appveyor.com/api/projects/status/ifwva0u3qmchlv4b?svg=true)](https://ci.appveyor.com/project/Kelias1/unit)
